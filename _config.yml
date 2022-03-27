@@ -2,8 +2,8 @@ title:              Clean Blog
 email:              2011458@gmail.com
 description:        A Blog Theme by Start Bootstrap
 author:             Tran Duc Tuan
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+baseurl:            
+url:                "https://TranDucTuan107.github.io"
 
 # Social Profiles
 twitter_username:   
