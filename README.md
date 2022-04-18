@@ -72,28 +72,28 @@ Assuming there are no errors and the site is building properly, follow these ste
       <div class="control-group">
         <div class="form-group floating-label-form-group controls">
           <label>Name</label>
-          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Xin hãy nhập tên của bạn.">
           <p class="help-block text-danger"></p>
         </div>
       </div>
       <div class="control-group">
         <div class="form-group floating-label-form-group controls">
           <label>Email Address</label>
-          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Hãy điền địa chỉ email của bạn.">
           <p class="help-block text-danger"></p>
         </div>
       </div>
       <div class="control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
           <label>Phone Number</label>
-          <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+          <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Xin vui lòng điền số điện thoại của bạn.">
           <p class="help-block text-danger"></p>
         </div>
       </div>
       <div class="control-group">
         <div class="form-group floating-label-form-group controls">
           <label>Message</label>
-          <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+          <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Vui lòng nhập một tin nhắn."></textarea>
           <p class="help-block text-danger"></p>
         </div>
       </div>
