@@ -1,10 +1,7 @@
 // Override Bootstrap typography variables
 
-$font-family-base:'Oleo Script Swash Caps', cursive;
-$font-family-base: 'Roboto', sans-serif;
+$font-family-base:'Oleo Script Swash Caps', cursive , 'Roboto', sans-serif;
 
 
 
-$headings-font-family: 'Oleo Script Swash Caps', cursive;
-$headings-font-family: 'Playfair Display', serif;
-$headings-font-family: 'Roboto', sans-serif;
+$headings-font-family: 'Oleo Script Swash Caps', cursive, 'Playfair Display', serif , 'Roboto', sans-serif;
