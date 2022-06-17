@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Posts
-background: '/img/bg-post.jpg'
+title: Bài Viết
+background: '/img/68748564_p0_master1200.jpg'
+description : Tập Hợp Những Bài Viết Về Du Lịch
 ---
 
 {% for post in paginator.posts %}
@@ -15,7 +16,7 @@ background: '/img/bg-post.jpg'
     <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
   </a>
-  <p class="post-meta">Posted by
+  <p class="post-meta">Được đăng bởi
     {% if post.author %}
     {{ post.author }}
     {% else %}
@@ -36,11 +37,11 @@ background: '/img/bg-post.jpg'
 
   {% if paginator.previous_page %}
   <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    Newer<span class="d-none d-md-inline"> Posts</span></a>
+    Quay Lại<span class="d-none d-md-inline"> Trang Trước</span></a>
   {% endif %}
 
   {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
+  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Xem Thêm<span class="d-none d-md-inline"> Bài Viết</span> &rarr;</a>
   {% endif %}
 
 </div>

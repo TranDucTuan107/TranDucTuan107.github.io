@@ -1,15 +1,15 @@
-title:              TRAVEL
-email:              2011458@gmail.com
-description:        VI VU CÙNG TÔI
-author:             Tran Duc Tuan
+title:              MyTour
+email:              2011463@gmail.com
+description:        Trải Nghiệm Cùng Chúng Tôi
+author:             Huỳnh Minh Tuyên
 baseurl:            
-url:                "https://TranDucTuan107.github.io"
+url:                "https://abcxyzzzzzz.github.io"
 
 # Social Profiles
 twitter_username:   
-github_username:    TranDucTuan107
-facebook_username:  Tran Duc Tuan
-instagram_username:  
+github_username:    abcxyzzzzzz
+facebook_username:  tuyen02x
+instagram_username:  tuyen02x
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
@@ -17,11 +17,12 @@ google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+paginate:           15
+paginate_path:      "/posts/page:5/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
 theme: jekyll-theme-cayman
+permalink: /:categories/:year/:month/:day/:title:output_ext
